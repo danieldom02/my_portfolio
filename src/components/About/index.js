@@ -1,37 +1,45 @@
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters'
+import { useEffect, useState } from 'react';
 
 const About = () => {
+
+    const [letterClass, setLetterClass] = useState('text-animate')
+
+    useEffect(() => {
+        return () => setTimeout(() => {
+            setLetterClass('text-animate-hover')
+        }, 3000)
+    }, [])
 
     return(
         <div className='container about-page'>
             <div className='text-zone'>
                 <h1>
                     <AnimatedLetters
+                        letterClass={letterClass}
                         strArray={['A','b','o','u','t',' ','m','e']}
                         idx={15}
                     />
                 </h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut euismod purus, 
-                    ornare ullamcorper nibh. Quisque vel lacus ut sapien accumsan semper id eleifend 
-                    quam. Maecenas eleifend, justo id rhoncus porta, dolor felis vulputate risus, in 
-                    consectetur elit sem vitae libero. Mauris eu vulputate nunc, vestibulum euismod 
-                    risus.
+                    My name is Daniel Dominguez Arroyo and I am a recent graduate from the University 
+                    of Texas at Austin. I am passionate about pursuing a career in software development,
+                    especially after recieving a BS in Computer Science. With my degree and several projects 
+                    under my belt, I am confident that I have a polished skill set as a software developer. 
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut euismod purus, 
-                    ornare ullamcorper nibh. Quisque vel lacus ut sapien accumsan semper id eleifend 
-                    quam. Maecenas eleifend, justo id rhoncus porta, dolor felis vulputate risus, in 
-                    consectetur elit sem vitae libero. Mauris eu vulputate nunc, vestibulum euismod 
-                    risus.
+                    I love to learn new technologies that help me further advance my career. I have 
+                    worked with several languages such as, Java, C, JavaScript, SQL, Swift, etc. I am 
+                    looking to work as a full-stack developer in order to keep a good understanding of 
+                    both front-end and back-end development practices. Values that I seek in a work 
+                    environment inlcude open communication, creative thinking, and collaboration.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut euismod purus, 
-                    ornare ullamcorper nibh. Quisque vel lacus ut sapien accumsan semper id eleifend 
-                    quam. Maecenas eleifend, justo id rhoncus porta, dolor felis vulputate risus, in 
-                    consectetur elit sem vitae libero. Mauris eu vulputate nunc, vestibulum euismod 
-                    risus.
+                    In my free time I like to go out and play basketball with some of my closest friends.
+                    I also enjoy going out and trying new restauraunts around the city, especially if I 
+                    get to do so with family or friends. Some other things that I enjoy include anime, fashion,
+                    and traveling.
                 </p>
             </div>
         </div>
