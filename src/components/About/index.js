@@ -29,17 +29,17 @@ const About = () => {
                         />
                     </h1>
                     <p>
-                        My name is Daniel Dominguez Arroyo and I am a recent graduate from the University 
-                        of Texas at Austin. I am passionate about pursuing a career in software development,
-                        especially after recieving a BS in Computer Science. With my degree and several projects 
-                        under my belt, I am confident that I have a polished skill set as a software developer. 
+                        My name is Daniel Dominguez Arroyo, I am a recent graduate from the University 
+                        of Texas at Austin and I am passionate about pursuing a career in software development. 
+                        With a degree in Computer Science and several projects under my belt, I am confident that I 
+                        have developed a polished skill set as a software developer. 
                     </p>
                     <p>
                         I love to learn new technologies that help me further advance my career. I have 
-                        worked with several languages such as, Java, C, JavaScript, SQL, Swift, etc. I am 
-                        looking to work as a full-stack developer in order to keep a good understanding of 
-                        both front-end and back-end development practices. Values that I seek in a work 
-                        environment inlcude open communication, creative thinking, and collaboration.
+                        worked with several languages such as, Java, C, JavaScript, SQL, and Swift. I am 
+                        interested in the entire scope of the software development process which drives me to 
+                        look for positions that offer a full-stack development role. Furthermore, values that I seek 
+                        in a work environment inlcude open communication, creative thinking, and collaboration.
                     </p>
                     <p>
                         In my free time I like to go out and play basketball with some of my closest friends.
