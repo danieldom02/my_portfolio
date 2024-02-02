@@ -1,4 +1,4 @@
-import './index.scss';
+import './index.scss'
 
 const Contact = () => ('Hello')
 
