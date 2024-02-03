@@ -51,7 +51,7 @@ const About = () => {
         <div className='stage-cube-cont'>
           <div className='cubespinner'>
             <div className='face1'>
-              <img src={MyPicture} alt='D' width='295' height='295' />
+              <img src={MyPicture} alt='D' width='345' height='345' />
             </div>
             <div className='face2'>
               <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
