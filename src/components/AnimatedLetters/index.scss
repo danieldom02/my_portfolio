@@ -10,12 +10,12 @@
     min-width: 10px;
     display: inline-block;
     animation-fill-mode: both;
+}
 
-    &:hover {
-        animation: rubberBand 1s;
-        color: #a97dff;
-        cursor: default;
-    }
+.text-animate-hover:hover{
+    animation: rubberBand 1s;
+    color: #a97dff;
+    cursor: default;
 }
 
 @for $i from 1 through 39 {
