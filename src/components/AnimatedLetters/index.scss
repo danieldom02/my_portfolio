@@ -13,9 +13,9 @@
 }
 
 .text-animate-hover:hover{
-    animation: rubberBand 1s;
-    color: #a97dff;
-    cursor: default;
+    animation: rubberBand 1s !important;
+    color: #a97dff !important; 
+    cursor: default !important;
 }
 
 @for $i from 1 through 39 {
