@@ -11,7 +11,9 @@ const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   useEffect(() => {
+    console.log("INSIDE THE USE EFFECT ........ ")
     return () => setTimeout(() => {
+      console.log("Updating the states for classes")
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
